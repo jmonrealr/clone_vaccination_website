@@ -1,0 +1,20 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    color: gray;
+}
+
+.brand-text {
+    font-size: xx-large;
+    color: #0000cd;
+}
+
+.title-text {
+    font-size: xx-large;
+    color: #2a52be;
+}
+
+.navbar-text {
+    font-size: large;
+    color: gray;
+}
