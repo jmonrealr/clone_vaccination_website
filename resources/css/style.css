@@ -7,20 +7,24 @@
 .brand-text {
     font-size: xx-large;
     color: #0000cd;
+    background-color: inherit;
 }
 
 .title-text {
     font-size: xx-large;
     color: #2a52be;
+    background-color: inherit;
 }
 
 .normal-text {
     color: #2a52be;
+    background-color: inherit;
 }
 
 .navbar-text {
     font-size: large;
     color: gray;
+    background-color: inherit;
 }
 
 .footer-background {
