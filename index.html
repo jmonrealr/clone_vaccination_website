@@ -45,27 +45,55 @@
             <div class="col">
                 <h3 class="title-text">Fight Virus With Vaccines</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quos et? Officiis, animi! Cum mollitia accusantium delectus quos laboriosam nesciunt amet, quaerat consequuntur quasi dolores inventore cupiditate dicta vitae nam!</p>
-                <span class="normal-text">
+                <span class="">
                     <i class="fa-solid fa-shield-virus"></i>
                     Best Protection
                 </span>
-                <span class="normal-text">
+                <span class="">
                     <i class="fa-solid fa-star"></i>
                     Selected Vaccines
                 </span>
-                <br>
-                <label>Shedule your vaccinations</label>
-                <div class="input-group flex">
-                    <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-clock"></i></span>
-                    <input type="date" class="form-control" placeholder="Selec" aria-label="Username"
-                        aria-describedby="addon-wrapping">
+                <div style="margin-top: 100px;">
                 </div>
+                <p class="normal-text">Shedule your vaccinations</p class="normal-text">
+                <form class="row gy-2 gx-3 align-items-center">
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-text"><i class="fa-solid fa-location-dot"></i></div>
+                            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Location">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingInput">Name</label>
+                        <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+                    </div>
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-text"><i class="fa-solid fa-clock"></i></div>
+                            <input type="date" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                        <select class="form-select" id="autoSizingSelect">
+                            <option selected>Choose...</option>
+                            <option value="1">Moderna</option>
+                            <option value="2">Pfizer</option>
+                            <option value="3">AstraZeneca</option>
+                        </select>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
             </div>
             <div class="col">
                 <img class="img-fluid" src="resources/images/woman_vaccination.png">
             </div>
         </div>
-        <div class="row align-items-start" style="margin-top: 20px;">
+        <div class="row align-items-start" style="margin-top: 40px;">
             <div class="col">
                 <p class="fs-4 gray">Pfizer <i class="fi fi-brands-pfizer"></i> </p>
             </div>
@@ -73,10 +101,45 @@
                 <p class="fs-4 gray">AstraZeneca <i class="fi fi-brands-astrazeneca"></i> </p>
             </div>
             <div class="col">
-
+                <p class="fs-4 gray">Pfizer <i class="fi fi-brands-pfizer"></i> </p>
+            </div>
+            <div class="col">
+                <p class="fs-4 gray">AstraZeneca <i class="fi fi-brands-astrazeneca"></i> </p>
             </div>
         </div>
     </main>
+    <footer class="container-fluid" style="background-color: #dcdcdc;">  
+        <div class="container" style="background-color: #dcdcdc; margin-top: 20px;">
+            <div class="row align-items-start" style="background-color: inherit; ">
+                <div class="col" style="background-color: inherit; margin-top: 20px;">
+                    <span class="brand-text" style="background-color: inherit;">Vaccination</span>
+                    <p style="background-color: inherit;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem repudiandae
+                        hic consequatur, ab quis iure
+                        maxime, nesciunt animi cum necessitatibus, ad ullam! Cupiditate dignissimos, explicabo neque recusandae
+                        quibusdam ipsum tenetur!</p>
+                </div>
+                <div class="col" style="background-color: inherit; margin-top: 20px;">
+                    <h3 style="background-color: inherit;"> About</h3>
+                    <ul class="nav flex-column" style="background-color: inherit;">
+                        <li class="nav-item" style="background-color: inherit;"><a href="" class="nav-link navbar-text "
+                                style="background-color: inherit;" aria-current="page">Home</a></li>
+                        <li class="nav-item" style="background-color: inherit;"><a href="" class="nav-link navbar-text"
+                                style="background-color: inherit;">Database</a></li>
+                        <li class="nav-item" style="background-color: inherit;"><a href="#" class="nav-link navbar-text"
+                                style="background-color: inherit;">Education</a></li>
+                        <li class="nav-item" style="background-color: inherit;"><a href="#" class="nav-link navbar-text"
+                                style="background-color: inherit;">News</a></li>
+                        <li class="nav-item" style="background-color: inherit;"><a href="#" class="nav-link navbar-text"
+                                style="background-color: inherit;">Regulation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-text" style="background-color: inherit;">
+                <span style="background-color: inherit;"> &copy; 2022 Juan Carlos Monreal.</span>
+                <span style="background-color: inherit;">Todos los derechos reservados</span>
+            </div>
+        </div>
+    </footer>
 </body>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
